@@ -12,3 +12,36 @@
     background-image: url(imgheader/pattern.png);
     background-position: center
 }
+section {
+    margin-bottom: 10px;
+}
+h1 {
+    font-size: 50px;
+    margin-top: 5px;
+}
+.source {
+    color: #808080;
+}
+#source-name {
+    color: #4AE0FF;
+}
+.pictures-description {
+    font-size: 13px;
+}
+p, table {
+    margin-top: 10px;
+}
+ul{
+    margin: 13px 0;
+}
+.yellow {
+    background-color: #FFFF00;
+}
+thead {
+    background-color: #20A9E5;
+    color: white;
+    font-weight: bold;
+}
+.colored-row {
+    background-color: #B1E5F2;
+}
