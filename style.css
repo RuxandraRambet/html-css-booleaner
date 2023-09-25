@@ -1,0 +1,14 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+.logo {
+    width: 150px; 
+    padding-top: 20px;
+    padding-left: 5px;
+}
+.background {
+    background-color: #4AE0FF;
+    background-image: url(imgheader/pattern.png);
+    background-position: center
+}
