@@ -1,0 +1,92 @@
+/* RESET */
+* {
+    padding: 0;
+    margin: 0;
+}
+/* COMMON */
+.space {
+    margin-top: 20px;
+}
+/* HEADER */
+header {
+    background-color: #4ea0ff;
+    background-image: url(../imgheader/pattern.png);
+    padding-top: 40px;
+    padding-left: 10px;
+    background-size: 28%;
+    margin-bottom: 20px;
+}
+
+/*  Eventuale aggiunta container con margin auto - esercizio Bonus */
+/* .container {
+    width: 70%;
+    margin: 0 auto;
+} */
+/* Eventuale aggiunta container con margin auto - esercizio Bonus */
+
+#logo {
+    height: 50px;
+}
+/* MAIN */
+.article-info {
+    color: #9b9b9b;
+}
+.author {
+    font-size: 18px;
+}
+.date {
+    font-size: 12px;
+}
+.author-name {
+    color: #41b6e9;
+}
+.images {
+    margin-top: 10px;
+}
+.caption {
+    font-size: 11px;
+}
+.highlights {
+    background-color:#FFFF00;
+}
+.info {
+    list-style-position: inside;
+}
+table {
+    border-collapse: collapse;
+    text-align: left;
+}
+thead {
+    background-color: #20A9E5;
+    color: #ffffff;
+}
+.colored-row{
+    background-color: #B1E5F2;
+}
+.testo {
+    width: 50%;
+}
+td {
+    padding: 10px;
+}
+
+/* FOOTER */
+h3.interessi {
+    color: #929292;
+}
+.box {
+    width: 250px;
+    height: 150px;
+    margin-bottom: 10px;
+    color: white;
+    font-size: 19px;
+    padding: 20px 10px 0 10px;
+    font-weight: bold;
+    background-size: cover;
+}
+#monitor {
+    background-image: url(../imgfooter/monitor.jpg);
+}
+#graph {
+    background-image: url(../imgfooter/graph.jpg);
+}

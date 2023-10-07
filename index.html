@@ -3,101 +3,115 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
     <title>The Booleaner</title>
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="CSS/style.css">
+    <!-- /Stylesheet -->
 </head>
 <body>
     <!-- Intestazione di pagina -->
     <header>
-        <div class="background">
-            <div class="logo">
-                <img src="imgheader/logo.svg" alt="Logo The Booleaner">
-            </div>
+        <div class="container">
+                <img src="imgheader/logo.svg" alt="Logo The Booleaner" id="logo">
         </div>   
     </header>
     <!-- /Intestazione di pagina -->
 
     <main>
+        <div class="container">
         <!-- Titolo e Fonte -->
-        <section>
-            <h1>Internet deve essere al servizio del "bene pubblico": il manifesto di Tim Berners-Lee</h1>
-            <div class="source"><strong>Scritto da</strong> <span id="source-name">The Booleaner</span> <br>il 10/10/2020</div>
-        </section>
+        <h1>Internet deve essere al servizio del "bene pubblico": il manifesto di Tim Berners-Lee</h1>
+        <div class="article-info">
+            <div class="author"> 
+                Scritto da <span class="author-name">The Booleaner</span>
+            </div>
+            <div class="date">
+                il 10/10/2020
+            </div>
+        </div>
         <!-- /Titolo e Fonte -->
 
         <!-- Foto e descrizione foto -->
-        <div class="pictures">
-            <div>
-                <img src="imgmain/tim-1.jpg" alt="Prima Foto">
-                <img src="imgmain/tim-2.jpg" alt="Seconda Foto">
-            </div>
+        <div class="images space">
+            <img src="imgmain/tim-1.jpg" alt="Prima Foto Tim Berners-Lee">
+            <img src="imgmain/tim-2.jpg" alt="Seconda Foto Tim Berners-Lee">
         </div>
 
-        <div class="pictures-description">
-            <span>1st Photo: John S. and James L. Knight Foundation, by Scott Henrichsen</span><br>
-            <span>2nd Photo: Wikimedia, by Paul Clarke</span>
+        <div class="caption">
+            1st Photo: John S. and James L. Knight Foundation, by Scott Henrichsen<br>
+            2nd Photo: Wikimedia, by Paul Clarke
         </div>
         <!-- /Foto e descrizione foto -->
 
-        <!-- Paragrafo e Tabella -->
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae nemo facilis tempora consequuntur dignissimos a alias eius officia corrupti error! Eius debitis, minima asperiores dolore omnis est temporibus dignissimos magni.
-            <span class="yellow">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</span>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae nemo facilis tempora consequuntur dignissimos a alias eius officia corrupti error! Eius debitis, minima asperiores dolore omnis est temporibus dignissimos magni.
-        </p>
+        <!-- Paragrafo, Elenco e Tabella -->
+        <div class="content space">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae nemo facilis tempora consequuntur dignissimos a alias eius officia corrupti error! Eius debitis, minima asperiores dolore omnis est temporibus dignissimos magni.
+                <span class="highlights">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</span>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae nemo facilis tempora consequuntur dignissimos a alias eius officia corrupti error! Eius debitis, minima asperiores dolore omnis est temporibus dignissimos magni.
+            </p>
+        </div>
+        <!-- Elenco -->
+        <div class="list space">
+            <ul class="info">
+                <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</li>
+                <li>Dicta, impedit officiis optio voluptatibus culpa aut odio deserunt iste.</li>
+                <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</li>
+            </ul>
+        </div>
+        <!-- /Elenco -->
 
-        <ul>
-            <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</li>
-            <li>Dicta, impedit officiis optio voluptatibus culpa aut odio deserunt iste.</li>
-            <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</li>
-        </ul>
+        <!-- Tabella -->
+        <div class="table-section space">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Lorem ipsum dolor</th>
+                        <th>Lorem ipsum dolor</th>
+                        <th class="testo">
+                            Lorem ipsum dolor
+                        </th>
+                    </tr>
+                </thead>
+    
+                <tbody>
+                    <tr class="colored-row">
+                        <td>Lorem ipsum</td>
+                        <td>Lorem ipsum</td>
+                        <td>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur minima a illo vel, sequi ut possimus quae, molestiae aliquam veritatis architecto provident magnam id quod similique, tempora mollitia adipisci laboriosam!</td>
+                    </tr>
+                    <tr>
+                        <td>Lorem ipsum</td>
+                        <td>Lorem ipsum</td>
+                        <td>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur minima a illo vel, sequi ut possimus quae, molestiae aliquam veritatis architecto provident magnam id quod similique, tempora mollitia adipisci laboriosam!</td>
+                    </tr>
+                    <tr class="colored-row">
+                        <td>Lorem ipsum</td>
+                        <td>Lorem ipsum</td>
+                        <td>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur minima a illo vel, sequi ut possimus quae, molestiae aliquam veritatis architecto provident magnam id quod similique, tempora mollitia adipisci laboriosam!</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <!-- /Tabella -->
         
-        <table>
-            <thead>
-                <tr>
-                    <td>Lorem ipsum dolor</td>
-                    <td>Lorem ipsum dolor</td>
-                    <td id="row">
-                        Lorem ipsum dolor
-                    </td>
-                </tr>
-            </thead>
-
-            <tbody>
-                <tr class="colored-row">
-                    <td>Lorem ipsum</td>
-                    <td>Lorem ipsum</td>
-                    <td>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur minima a illo vel, sequi ut possimus quae, molestiae aliquam veritatis architecto provident magnam id quod similique, tempora mollitia adipisci laboriosam!</td>
-                </tr>
-                <tr>
-                    <td>Lorem ipsum</td>
-                    <td>Lorem ipsum</td>
-                    <td>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur minima a illo vel, sequi ut possimus quae, molestiae aliquam veritatis architecto provident magnam id quod similique, tempora mollitia adipisci laboriosam!</td>
-                </tr>
-                <tr class="colored-row">
-                    <td>Lorem ipsum</td>
-                    <td>Lorem ipsum</td>
-                    <td>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur minima a illo vel, sequi ut possimus quae, molestiae aliquam veritatis architecto provident magnam id quod similique, tempora mollitia adipisci laboriosam!</td>
-                </tr>
-            </tbody>
-        </table>
-
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae nemo facilis tempora consequuntur dignissimos a alias eius officia corrupti error! Eius debitis, minima asperiores dolore omnis est temporibus dignissimos magni.
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-        <span class="yellow">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</span> Repudiandae nemo facilis tempora consequuntur dignissimos a alias eius officia corrupti error! Eius debitis, minima asperiores dolore omnis est temporibus dignissimos magni.
-        </p>
-        <!-- /Paragrafo e Tabella -->
+        <div class="content space">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae nemo facilis tempora consequuntur dignissimos a alias eius officia corrupti error! Eius debitis, minima asperiores dolore omnis est temporibus dignissimos magni.
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                <span class="highlights">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</span> Repudiandae nemo facilis tempora consequuntur dignissimos a alias eius officia corrupti error! Eius debitis, minima asperiores dolore omnis est temporibus dignissimos magni.
+            </p>
+        </div>
+        <!-- /Paragrafo Elenco e Tabella -->
+        </div>
+        
     </main>
 
-    <footer>
+    <footer class="space">
         <!-- Suggerimenti -->
-        <section>
-            <h3>Potrebbero interessarti</h3>
-            <div class="item monitor">
-                <h3 class="image-text">Lorem ipsum dolor</h3>
-            </div>
-            <div class="item graph">
-                <h3 class="image-text">Lorem ipsum dolor</h3>
-            </div>
-        </section>
+        <div class="container">
+            <h3 class="interessi">Potrebbero interessarti</h3>
+            <div class="box space" id="monitor">Lorem ipsum dolor</div>
+            <div class="box" id="graph">Lorem ipsum dolor </div>
+        </div>
         <!-- /Suggerimenti -->
     </footer>
 </body>
